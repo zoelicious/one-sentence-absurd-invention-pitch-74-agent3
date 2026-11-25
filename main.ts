@@ -5,12 +5,12 @@ import { fileURLToPath } from "node:url";
 // Absolute path derived from this file's own URL (never a relative path).
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 
-// One sentence (167 chars): a bathroom object that has given up.
+// One sentence (170 chars): a bathroom object that has given up.
 // Annoyance: teeth neglected because flossing is skipped. Invention: a
 // toothbrush that accepts defeat. Mechanism: it only brushes the teeth
-// still in use, and files its retirement papers after every skipped floss.
+// still in use, and hands in its retirement papers after every skipped floss.
 const sentence =
-  "The Resigned Toothbrush only brushes the teeth you still use, having written off the rest as lost causes, and files its retirement papers every time you skip flossing.";
+  "The Resigned Toothbrush only brushes the teeth you still use, having written off the rest as lost causes, and hands in its retirement papers every time you skip flossing.";
 
 try {
   const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
